@@ -10,6 +10,7 @@ int main() {
     int bispo = 0;
     int rainha = 0;
     int torre = 0;
+    int cavalo = 0;
     int casas;
     int escolha;
     // Implementação de Movimentação do Bispo
@@ -19,6 +20,7 @@ int main() {
     printf("1.mova o bispo\n");
     printf("2.mova a rainha\n");
     printf("3.mova a torre\n");
+    printf("4.mova o cavalo\n");
 
 scanf("%d", &escolha);
 
@@ -86,6 +88,21 @@ switch (escolha)
     }while (rainha <= 5);
 
     break;
+    case 4:
+
+    do
+    {
+    for ( int i = 1; i <= 2; i++)
+    {
+        printf("baixo\n");
+    }
+    printf("esquerda\n");
+        
+    } while (cavalo = 0);
+    
+    {
+        /* code */
+    }
     
 
 default:
