@@ -130,10 +130,10 @@ switch (escolha)
     {
     for ( int i = 1; i <= 2; i++)
     {
-        printf("baixo\n");
+        printf("cima\n");
         
     }
-    printf("esquerda\n");
+    printf("direita\n");
         break;
     } while (cavalo = 1);
     
